@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Meher's Portfolio</title>
+        <link  rel="stylesheet" href="style1.css"> 
+        <script src="https://kit.fontawesome.com/bfd2ed54c2.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <!-- <img src="meherlogo.png" class="logo"> -->
+            <ul id="sidemenu" style="margin-left: 450px;">
+                <li><a href="#header"><b>Home</b></a></li>
+                <li><a href="#about"><b>About</b></a></li>
+                <li><a href="#services"><b>Services</b></a></li>
+                <li><a href="#portfolio"><b>Portfolio</b></a></li>
+                <li><a href="#contact"><b>Contact</b></a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p><b>Web Developer</b></p>
+            <h1>Hi, I'm <font color="orange">Meher</font><br> From <font color="orange"> Andhra Pradesh</font></h1>
+        </div>
+    </div>
+   </div>
+
+   <!-- --------about-------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="meee.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Seeking an entry-level opportunity 
+                        with an esteemed organisation 
+                        where I can utilize my skills and 
+                        enhance learning in the field of 
+                        work. Capable of mastering new 
+                        Technologies.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                           
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><font color="orange" size="2px">UI/UX</font><br>Designing Web /App interfaces</li>
+                                <li><font color="orange" size="2px">Web Development</font><br>Web app Development</li>
+                                <li><font color="orange" size="2px">App Development</font><br>Building Android/ios apps</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><font color="orange" size="2px">2023 - current</font><br>Aditya Institute of Technology and Management<br>CGPA - 9.03</li>
+                                <li><font color="orange" size="2px">2019 - 2021</font><br>Intermediate<br>Percentage - 96.5%</li>
+                                <li><font color="orange" size="2px">2019</font><br>Tenth class<br>CGPA - 10</li>
+                            </ul>
+                        </div>
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------services-------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Certificates</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Devtown</h2>
+                    <p>Instagram clone using HTML,CSS & JavaScript</p>
+                    <a href="#"><font color="red" size="2px"><b>Certificate</b></font></a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Exposys Data Labs</h2>
+                    <p> Completed internship
+                        programme on “Cyber Secutiry”</p>
+                    <a href="#"><font color="red" size="2px"><b>Certificate</b></font></a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-certificate"></i>
+                    <h2>InternPe</h2>
+                    <p>Completed internship
+                        programme on “Web Developer” in InternPe</p>
+                    <a href="#"><font color="red" size="2px"><b>Certificate</b></font></a>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!-- --------portfolio----------- -->
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="C:\Users\param\OneDrive\Desktop\port\college.jpg">
+                <div class="layer">
+                    <h3><b>Aitam College</b></h3>
+                    <p>contains information aitam college</p>
+                    <a href="file:///D:/html/week1/main.html"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="netflix.jpg">
+                <div class="layer">
+                    <h3>Netflix interface</h3>
+                    <p>I have cloned the netflix interface by using my frontend developing skills</p>
+                    <a href="https://www.netflix.com/in/"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="swiggy.jpg">
+                <div class="layer">
+                    <h3>Swiggy Interface</h3>
+                    <p>I have cloned the swiggy interface by using my frontend developing skills</p>
+                    <a href="https://www.swiggy.com/"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+   </div>
+   <!-- ------contact------- -->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> parameshmeher@gamil.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 9110330320</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="Resume.docx" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <div class="copyright">
+        <p>@ Meher. Made by Me</p>
+    </div>
+   </div>
+   
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
